@@ -23,3 +23,6 @@ class Library:
     
     def return_book(self , book):
         self.books.append(book)
+
+    def view_available_books(self):
+        return self.books
