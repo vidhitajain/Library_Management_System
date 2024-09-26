@@ -13,12 +13,12 @@ The **Library Management System** allows users to add, borrow, return, and view 
 
 ### 1. Clone the Repository
 
-git clone https://github.com/vidhitajain/Library_Management_System.git
+git clone https://github.com/vidhitajain/Library_Management_System.git<br>
 cd Library_Management_System
 
 ### 2.Set Up a Virtual Enviornment(Optional)
 
-python -m venv venv
+python -m venv venv<br>
 venv\Scripts\activate
 
 ### 3. Install Required Dependencies
@@ -34,10 +34,10 @@ pytest --tb=short --disable-warnings
 Although this project doesn't include a user interface, you can interact with the Library class via Python scripts
 
 Example:
-from library import Library
+from library import Library<br>
 
-library = Library()
-available_books = library.available_books()
+library = Library()<br>
+available_books = library.available_books()<br>
 
-for book in available_books:
-    print(f"{book.title} by {book.author} ({book.publication_year})")
+for book in available_books:<br>
+    print(f"{book.title} by {book.author} ({book.publication_year})")<br>
