@@ -20,3 +20,6 @@ class Library:
                 self.books.remove(book)
                 return book
         raise Exception("Book not available")
+    
+    def return_book(self , book):
+        self.books.append(book)
